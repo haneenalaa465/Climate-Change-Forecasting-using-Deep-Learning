@@ -27,7 +27,7 @@ AgCFSR (Agricultural Climate Forcing Dataset)
 -   Relative Humidity
 -   Wind Speed
 
-📦 **Source:** NASA GISS AgMIP Climate Data 
+📦 **Source:** [NASA GISS AgMIP Climate Data]((https://data.giss.nasa.gov/impacts/agmipcf/)
 
 ## 🛠️ Project Stages
 
@@ -61,4 +61,19 @@ AgCFSR (Agricultural Climate Forcing Dataset)
 | TCN  | 90,149 | 	0.0120  | 0.0052 | 7.59e-05  |
 
 
+📈 **Insights:**
+- LSTM: Best performance and generalization.
+- GRU: Comparable to LSTM with fewer parameters (more efficient).
+- TCN: Needs tuning; larger and slower but promising.
 
+🔍 ## Results
+- Strong agreement between predicted and actual normalized Tmax values.
+- GRU and LSTM outperform TCN in both training and validation metrics.
+
+📌 ## Conclusion
+- LSTM and GRU are highly effective for climate time-series forecasting.
+- GRU is preferred for efficiency with competitive accuracy.
+- TCN can benefit from further hyperparameter optimization.
+
+📢 ## Acknowledgements
+This project was developed as part of the Deep Learning course at Zewail University, using publicly available data provided by NASA and AgMIP.
