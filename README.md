@@ -81,7 +81,7 @@ This project was collaboratively developed by:
 
 - **Haneen Alaa:** Data Acquisition, Data visualization, Model Development, and Reporting.
 
-- **@salsayed2003:** Data Exploration, Cleaning, Preprocessing, Feature Engineering.
+- **Sarah ElSayed:** Data Exploration, Cleaning, Preprocessing, Feature Engineering.
 
  ## 📢 Acknowledgements
 This project was developed as part of the Deep Learning course at Zewail University, using publicly available data provided by NASA and AgMIP.
