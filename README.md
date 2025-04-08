@@ -7,6 +7,7 @@ We implemented and compared three deep learning models:
 - LSTM (Long Short-Term Memory)
 - TCN (Temporal Convolutional Network)
 - GRU (Gated Recurrent Unit)
+
 All models were trained on normalized time-series data with early stopping to avoid overfitting.
 
 
